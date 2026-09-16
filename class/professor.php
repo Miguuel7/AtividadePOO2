@@ -1,6 +1,6 @@
 <?php
 
-class professor extends Pessoa {
+class Professor extends Pessoa {
     public $registroProfessor;
     public $disciplina;
     public $cargaHoraria;

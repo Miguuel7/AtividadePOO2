@@ -50,10 +50,20 @@ class Pessoa {
     }
 }
 
-$class = new Pessoa();
-$class->cadastrar();
-$class->atualizarEmail();
-$class->atualizarTelefone();
-$class->atualizarEndereco();
-$class->atualizarStatus();
-$class->exibirDados();
+$objPessoa = new Pessoa();
+$objPessoa->nome = "João da Silva";
+$objPessoa->idade = 30;
+$objPessoa->cpf = "123.456.789-00";
+$objPessoa->email = "joao.silva@example.com";
+$objPessoa->telefone = "(11) 99999-9999";
+$objPessoa->endereco = "Rua Exemplo, 123";
+$objPessoa->cidade = "São Paulo";
+$objPessoa->estado = "SP";
+$objPessoa->dataNascimento = "1993-05-15";
+$objPessoa->statusPessoa = "Ativo";
+$objPessoa->cadastrar();
+$objPessoa->atualizarEmail();
+$objPessoa->atualizarTelefone();
+$objPessoa->atualizarEndereco();
+$objPessoa->atualizarStatus();
+$objPessoa->exibirDados();
